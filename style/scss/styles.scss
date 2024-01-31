@@ -1,0 +1,13 @@
+@import 'var';
+
+@media (min-width:1400px){
+	.page
+	{
+		max-width: 1400px;
+		display: flex;
+		background-color: $base;
+		margin: 0 auto;
+	}
+	@import './bloks/header';
+}
+
