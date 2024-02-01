@@ -1,4 +1,4 @@
-@import 'var';
+ @import 'var';
 
 @media (min-width:1400px){
 	.page
@@ -7,6 +7,7 @@
 		display: flex;
 		background-color: $base;
 		margin: 0 auto;
+		font-family: 'Sen';
 	}
 	@import './bloks/header';
 }

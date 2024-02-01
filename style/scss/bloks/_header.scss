@@ -1,5 +1,17 @@
 .header{
 	width: 100%;
 	display: flex;
-	
+	margin-left: 72px;
+	margin-right: 72px;
+	justify-content: space-between;
+}
+.menu{
+	&__list
+	{
+		color: $text;
+	}
+	&__link
+	{
+
+	}
 }
