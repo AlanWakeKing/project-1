@@ -31,7 +31,16 @@
 		padding: 32px 24px;
 	}
 }
+.link{
+	color: $text;
+	text-decoration: none;
+}
 .active
 {
 background: rgb(82, 33, 230);
+}
+
+.slider
+{
+	padding-top: 80px;
 }

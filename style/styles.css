@@ -14,6 +14,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 @media (min-width: 1400px) {
@@ -55,7 +56,16 @@
     padding: 32px 24px;
   }
 
+  .link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
   .active {
     background: #5221e6;
+  }
+
+  .slider {
+    padding-top: 80px;
   }
 }
