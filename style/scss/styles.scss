@@ -1,13 +1,18 @@
  @import 'var';
 
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;}
+
 @media (min-width:1400px){
 	.page
 	{
-		max-width: 1400px;
 		display: flex;
 		background-color: $base;
 		margin: 0 auto;
 		font-family: 'Sen';
+
 	}
 	@import './bloks/header';
 }
