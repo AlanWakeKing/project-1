@@ -13,16 +13,16 @@ $violet-accent:#fbe4ff;
 	font-family: 'Sen'; 
 	font-style: normal;
 	font-weight: normal;
-	src: url(../fonts/Sen-Regular.ttf) format('ttf'),
-			url(../fonts/Sen-Regular.woff) format('woff'),
-			url(../fonts/Sen-Regular.woff2) format('woff2');
+	src: url(./fonts/Sen-Regular.ttf) format('ttf'),
+			url(./fonts/Sen-Regular.woff) format('woff'),
+			url(./fonts/Sen-Regular.woff2) format('woff2');
 }
 
 @font-face {
 	font-family: 'Sen';
 	font-style: normal;
 	font-weight: bold;
-	src: url(../fonts/Sen-Bold.ttf) format('ttf'),
-			url(../fonts/Sen-Bold.woff) format('woff'),
-			url(../fonts/Sen-Bold.woff2) format('woff2');
+	src: url(./fonts/Sen-Bold.ttf) format('ttf'),
+			url(./fonts/Sen-Bold.woff) format('woff'),
+			url(./fonts/Sen-Bold.woff2) format('woff2');
 }
