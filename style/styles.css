@@ -1,5 +1,33 @@
-@font-face { font-family: 'Sen'; font-style: normal; font-weight: normal; src: url(../fonts/Sen-Regular.ttf) format("ttf"), url(../fonts/Sen-Regular.woff) format("woff"), url(../fonts/Sen-Regular.woff2) format("woff2"); }
-@font-face { font-family: 'Sen'; font-style: normal; font-weight: bold; src: url(../fonts/Sen-Bold.ttf) format("ttf"), url(../fonts/Sen-Bold.woff) format("woff"), url(../fonts/Sen-Bold.woff2) format("woff2"); }
-@media (min-width: 1400px) { .page { max-width: 1400px; display: flex; background-color: #000000; margin: 0 auto; font-family: 'Sen'; }
-  .header { width: 100%; display: flex; margin-left: 72px; margin-right: 72px; justify-content: space-between; }
-  .menu__list { color: #ffffff; } }
+@font-face {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Sen-Regular.ttf) format("ttf"), url(../fonts/Sen-Regular.woff) format("woff"), url(../fonts/Sen-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: bold;
+  src: url(../fonts/Sen-Bold.ttf) format("ttf"), url(../fonts/Sen-Bold.woff) format("woff"), url(../fonts/Sen-Bold.woff2) format("woff2");
+}
+@media (min-width: 1400px) {
+  .page {
+    max-width: 1400px;
+    display: flex;
+    background-color: #000000;
+    margin: 0 auto;
+    font-family: 'Sen';
+  }
+
+  .header {
+    width: 100%;
+    display: flex;
+    margin-left: 72px;
+    margin-right: 72px;
+    justify-content: space-between;
+  }
+
+  .menu__list {
+    color: #ffffff;
+  }
+}
