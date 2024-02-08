@@ -1,0 +1,11 @@
+{
+  "name": "sass-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+		"scss": "node-sass --watch style/scss -o style"
+  },
+  "author": "",
+  "license": "ISC"
+}
