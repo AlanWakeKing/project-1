@@ -7,9 +7,10 @@
 	text-decoration: none;
 }
 
-@media (min-width:1400px){
+@media (min-width:1440px){
 	.page
 	{
+		max-width: 1440px;
 		display: flex;
 		background-color: $base;
 		margin: 0 auto;
