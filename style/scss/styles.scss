@@ -15,8 +15,9 @@
 		background-color: $base;
 		margin: 0 auto;
 		font-family: 'Sen';
-
+		flex-direction: column;
 	}
 	@import './bloks/header';
+	@import './bloks/main/main';
 }
 

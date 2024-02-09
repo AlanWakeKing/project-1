@@ -22,7 +22,8 @@
     display: flex;
     background-color: #000000;
     margin: 0 auto;
-    font-family: 'Sen'; }
+    font-family: 'Sen';
+    flex-direction: column; }
   .header {
     width: 100%;
     display: grid;
@@ -89,4 +90,60 @@
       font-family: Sen;
       font-size: 18px;
       font-weight: 400;
-      line-height: 150%; } }
+      line-height: 150%; }
+  .text-gray {
+    color: rgba(255, 255, 255, 0.5); }
+  .content {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .work {
+    display: flex;
+    min-height: 715px;
+    padding-left: 72px;
+    flex-direction: column; }
+  .title {
+    color: #ffffff;
+    margin-top: 120px; }
+    .title__subtitle {
+      padding-top: 8px;
+      color: #8491a0;
+      font-family: 'Sen';
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: 0%; }
+    .title__primary-title {
+      width: 690px;
+      font-family: 'Sen';
+      font-size: 55px;
+      font-weight: 700;
+      line-height: 66px; }
+  .listing {
+    width: 100%;
+    padding-top: 40px; }
+    .listing__work {
+      display: flex;
+      list-style: none; }
+  .item__number {
+    color: #8491a0;
+    font-family: 'Sen';
+    font-size: 117px;
+    font-weight: 400;
+    line-height: 141px; }
+  .item__title {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%; }
+  .item__subtitle {
+    color: #8491a0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%; }
+  .color-g {
+    color: #3cc74e; }
+  .color-f {
+    color: #609bff; }
+  .color-d {
+    color: #e95d90; } }
