@@ -4,7 +4,6 @@
   font-weight: normal;
   src: url(./fonts/Sen-Regular.ttf) format("ttf"), url(./fonts/Sen-Regular.woff) format("woff"), url(./fonts/Sen-Regular.woff2) format("woff2"); }
 
-<<<<<<< HEAD
 @font-face {
   font-family: 'Sen';
   font-style: normal;
@@ -152,7 +151,6 @@
     display: flex;
     height: 600px;
     background-color: #fff3e4; } }
-=======
 @media (min-width: 1440px) { .page { max-width: 1440px; display: flex; background-color: #000000; margin: 0 auto; font-family: 'Sen'; flex-direction: column; }
   .header { width: 100%; display: grid; grid-template-columns: 1fr 1fr; justify-content: space-between; align-items: center; position: relative; }
   .header::before { content: ""; position: absolute; width: 900px; height: 100%; right: 0; top: 0; background: #181823; z-index: -1; }
@@ -187,4 +185,3 @@
   .pv__title { font-family: 'Sen'; font-size: 55px; font-weight: 700; line-height: 66px; color: #181823; }
   .pv__subtitle { font-family: 'Sen'; font-size: 18px; font-weight: 400; line-height: 150%; color: #5b6876; }
   .pv__link { margin-top: 134px; color: #181823; border-bottom: 1px solid #181823; } }
->>>>>>> origin/main
