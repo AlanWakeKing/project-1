@@ -3,4 +3,50 @@
 	display: flex;
 	height: 600px;
 	background-color:$peach-accent;
+	position: relative;
+	column-gap: 72px;
+	&__foto
+	{
+		display: block;
+		width: 720px;
+		height: 600px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		background-image: url(./images/Rectangle\ 39.jpeg);
+		background-size: cover;
+	}
+}
+.pv
+{
+	width: 576px;
+	margin-top: 120px;
+	margin-left: 72px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	&__title
+	{
+	font-family: 'Sen';
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 66px;
+	color: $level-1;
+	}
+	&__subtitle
+	{
+	font-family: 'Sen';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 150%;
+	color: $dark-gray;
+	}
+	&__link
+	{
+		margin-top: 134px;
+		color: $level-1;
+		border-bottom: 1px solid $level-1;
+	}
 }
